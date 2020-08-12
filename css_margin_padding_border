@@ -1,0 +1,29 @@
+/*selector {
+  property: value;
+} */
+
+.red {
+  width: 100px;
+  height: 100px;
+  padding: 20px;
+  margin: 20px;
+  border: 2px dashed red;
+  background: yellow;
+}
+
+
+margin-top: 20px;
+margin-right: 20px;
+이렇게 할 수도 있지만
+
+margin: 20px 20px 20px 20px; - 시계방향으로 돌아가도록
+margin: 20px 0px; - 위아래, 양옆으로 나눠서 쓸 수도 있다.
+
+border -width: 2px;
+border -style: solid;
+border -color: pink;
+이렇게 쓸 수도 있지만
+
+border: 2px dashed red; - 한줄에 쓸 수도 있다.
+
+css reference (mdn site)에서 확인 가능
